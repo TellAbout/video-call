@@ -1,0 +1,43 @@
+.participant {
+  background: #00ff37;
+  padding: 2px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+
+  h3 {
+    text-align: center;
+    margin: 1em;
+    position: absolute;
+    z-index: 1000;
+  }
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    position: absolute;
+    height: 99%;
+    opacity: 0%;
+  }
+
+  .avatar {
+    opacity: 100%;
+  }
+}
+
+.participant:last-child {
+  margin-right: 0;
+}
+
+.participant video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
